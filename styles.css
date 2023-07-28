@@ -4,52 +4,117 @@
   }
 
 body {
+    margin: 8px;
+    display: block;
     font-family: rockwell;
-    /* background-image: url('./images/vecteezydogbackground.jpg');
-    background-size: auto;
-    background-position: center;
-    background-attachment: fixed; */
+    border: double 8px rgb(0, 83, 0);
 }
 
 header {
     text-align: center;
 }
 
-nav {
-    display: block;
-    justify-content:baseline;
+/****Style for the introduction****/
+#heading {
+    text-decoration: underline 5px rgb(206, 155, 0);
+    padding: 10px;
+    margin: 10px;
 }
 
-nav ul {
-    list-style: none;
+h1 {
+    font-size: 50px;
 }
 
-img {
-    width: 20rem;
-    height:auto;
+h4 {
+    font-size: 30px;
+    text-decoration: underline 3px rgb(206, 155, 0);
 }
-/*Trying to get the caption for the photo underneath the photo and center*/
-/* #intro-container {
-    display: flex;
-    justify-content: center;
-} */
+
+#intro-container {
+    padding: 10px;    
+}
 
 #introduction {
     display: flex;
     justify-content: center;
 }
 
-/* #introduction {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-} */
-
-#icon {
-    width: 2em;
+figcaption {
+    font-size: 20px;
+    font-weight: bold;
 }
 
-#img-container {
-    display:block;
+.text {
+    display: flex;
     justify-content: center;
+}
+
+p {
+    max-width: 800px;
+    font-size: 18px;
+}
+
+/****Nav Styling****/
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+}
+    
+a {
+    text-decoration: none;
+    color: rgb(14, 22, 54);
+}
+
+  /* visited link */
+a:visited {
+    color: rgb(0, 83, 0);
+}
+  
+  /* mouse over link */
+a:hover {
+    color: rgb(206, 155, 0);
+}
+
+/****Styling for the rest of the page****/
+
+#img-container {
+    display: block;
+    justify-content: center;
+}
+
+#younger-years, 
+#one-year, 
+#beard-bros {
+    text-align: center;
+    margin: 200px
+}
+
+img {
+    max-height: 25rem;
+    padding: 0;
+    margin: 10px;
+    border: double 5px rgb(206, 155, 0);
+}
+
+
+/****Styling for Footer****/
+
+#footer {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#icon {
+    max-height: 2em;
+}
+
+#copyright {
+    font-size: 10px;
+    margin-left: 20px
 }

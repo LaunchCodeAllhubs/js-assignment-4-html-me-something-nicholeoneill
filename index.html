@@ -2,23 +2,31 @@
 <html>
    <head>
       <link rel="stylesheet" href="./styles.css" />
-      <title>Henry & Beau</title>
+      <title>Henry &amp; Beau</title>
    </head>
    <body>
       <header>
-         <h1>Henry & Beau</h1>
-         <h2>A Tail Of Two Brothers</h2>
+         <div id="heading">
+            <h1>Henry &amp; Beau</h1>
+            <h2>A Tail Of Two Brothers</h2>
+         </div>
+         
          <div id="intro-container">
             <div id="introduction">
-               <img src="./images/IMG_4631.jpeg" alt="Henry"/>
-               <br>
-               <h4>Hi, I'm Henry!</h4>
-               <img src="./images/IMG_4623.jpeg" alt="Beau"/>
-               <br>
-               <h4>Hi, I'm Beau!</h4>
+               <figure>
+                  <img src="./images/IMG_4631.jpeg" alt="Henry"/>
+                  <figcaption>Hi, I'm Henry!</figcaption>
+               </figure>
+               <figure>
+                  <img src="./images/IMG_4623.jpeg" alt="Beau"/>
+                  <figcaption>Hi, I'm Beau!</figcaption>
+               </figure>
             </div>
          </div>
+         <div class="text">
             <p>We are brothers and these are some pictures of our life together. Our humans are obsessed with us! Hope you enjoy the pictures, and please don't judge our humans. They mean well.</p>
+         </div>
+            
         
 
          <nav class="nav">
@@ -35,35 +43,43 @@
          <div id="img-container">
             <div id="younger-years">
                <h4>The Younger Years</h4>
-               <p>We were only a month old here.</p>
-               <img src="./images/henry.JPG" alt="Puppy Henry">
-               <img src="./images/beau.jpg" alt="Puppy Beau">
+               <figure>
+                  <img src="./images/henry.JPG" alt="Puppy Henry">
+                  <img src="./images/beau.jpg" alt="Puppy Beau">
+                  <figcaption>We were only a month old here.</figcaption>
+               </figure>
                
-               <p>We did everything together!</p>
-               <img src="./images/IMG_3910.jpeg" alt="Sitting on the porch">
-               <img src="./images/IMG_4065.jpg">
-               <img src="./images/IMG_4076.jpg">
-               <div>
-                  <article>We got big fast!</article>
+                  <img src="./images/IMG_3910.jpeg" alt="Sitting on the porch">
+                  <img src="./images/IMG_4065.jpg">
+                  <img src="./images/IMG_4076.jpg">
+                  
+               <figure>
                   <img src="./images/IMG_4227.jpeg">
-               </div>
+                  <figcaption class="caption">We got big fast!</figcaption>
+               </figure>
             </div>
             <div id="one-year">
                <h4>One Trip Around the Sun</h4>
-               <p>Before we knew it, we were 1!</p>
-               <img src="./images/IMG_2293.jpeg">
-               <img src="./images/loveyoubro.jpeg">
-               <img src="./images/IMG_2287.jpeg">
+               <figure>
+                  <img src="./images/IMG_2293.jpeg">
+                  <img src="./images/IMG_2287.jpeg">
+                  <img src="./images/loveyoubro.jpeg">
+                  <figcaption>Before we knew it, we were 1!</figcaption>
+               </figure>
+               
             </div>
             <div id="beard-bros">
                <h4>Beard of Brothers</h4>
-               <img src="./images/IMG_5518.jpg">
-               <p></p>
+               <figure>
+                  <img src="./images/IMG_5518.jpg">
+                  <figcaption>Hope you enjoyed the photos! Now give us a treat!</figcaption>
+               </figure>
             </div>
          </div>
       </main>
+
       <footer>
-         <div>
+         <div id="footer">
             <a href="https://www.linkedin.com/in/nichole-oneill/" target="_blank" class="icon">
                 <img id="icon" src="./icons/vecteezy_linkedin-social-media-icon-symbol-logo-vector-illustration_8385835.jpg" alt="LinkedIn">
             </a>
@@ -71,6 +87,7 @@
                 <img id="icon" src="./icons/vecteezy_github-logo-git-hub-icon-on-white-background_16833872.jpg" alt="Github">
             </a>
         </div>
+        <p id="copyright">&copy; 2023 Nichole O'Neill</p>
       </footer>
    </body>
 </html>
