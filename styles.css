@@ -1,1 +1,55 @@
 /* Write your CSS here! */
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: rockwell;
+    /* background-image: url('./images/vecteezydogbackground.jpg');
+    background-size: auto;
+    background-position: center;
+    background-attachment: fixed; */
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    display: block;
+    justify-content:baseline;
+}
+
+nav ul {
+    list-style: none;
+}
+
+img {
+    width: 20rem;
+    height:auto;
+}
+/*Trying to get the caption for the photo underneath the photo and center*/
+/* #intro-container {
+    display: flex;
+    justify-content: center;
+} */
+
+#introduction {
+    display: flex;
+    justify-content: center;
+}
+
+/* #introduction {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+} */
+
+#icon {
+    width: 2em;
+}
+
+#img-container {
+    display:block;
+    justify-content: center;
+}
