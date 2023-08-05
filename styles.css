@@ -15,10 +15,17 @@ header {
 }
 
 /****Style for the introduction****/
+#mainHeading {
+    color: red;
+}
 #heading {
     text-decoration: underline 5px rgb(206, 155, 0);
     padding: 10px;
     margin: 10px;
+}
+
+#testP {
+    color: green;
 }
 
 h1 {
