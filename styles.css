@@ -89,8 +89,10 @@ a:hover {
 #younger-years, 
 #one-year, 
 #beard-bros {
+    display: block;
+    justify-content: center;
     text-align: center;
-    margin: 200px
+    margin: 0 auto;
 }
 
 img {
@@ -98,6 +100,10 @@ img {
     padding: 0;
     margin: 10px;
     border: double 5px rgb(206, 155, 0);
+}
+
+.bday-pics {
+    max-height: 15rem;
 }
 
 
