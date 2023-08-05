@@ -1,1 +1,133 @@
 /* Write your CSS here! */
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 8px;
+    display: block;
+    font-family: rockwell;
+    border: double 8px rgb(0, 83, 0);
+}
+
+header {
+    text-align: center;
+}
+
+/****Style for the introduction****/
+#mainHeading {
+    color: red;
+}
+#heading {
+    text-decoration: underline 5px rgb(206, 155, 0);
+    padding: 10px;
+    margin: 10px;
+}
+
+#testP {
+    color: green;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h4 {
+    font-size: 30px;
+    text-decoration: underline 3px rgb(206, 155, 0);
+}
+
+#intro-container {
+    padding: 10px;    
+}
+
+#introduction {
+    display: flex;
+    justify-content: center;
+}
+
+figcaption {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    max-width: 800px;
+    font-size: 18px;
+}
+
+/****Nav Styling****/
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+}
+    
+a {
+    text-decoration: none;
+    color: rgb(14, 22, 54);
+}
+
+  /* visited link */
+a:visited {
+    color: rgb(0, 83, 0);
+}
+  
+  /* mouse over link */
+a:hover {
+    color: rgb(206, 155, 0);
+}
+
+/****Styling for the rest of the page****/
+
+#img-container {
+    display: block;
+    justify-content: center;
+}
+
+#younger-years, 
+#one-year, 
+#beard-bros {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+img {
+    max-height: 20rem;
+    padding: 0;
+    margin: 10px;
+    border: double 5px rgb(206, 155, 0);
+}
+
+.bday-pics {
+    max-height: 15rem;
+}
+
+
+/****Styling for Footer****/
+
+#footer {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#icon {
+    max-height: 2em;
+}
+
+#copyright {
+    font-size: 10px;
+    margin-left: 20px
+}
